@@ -27,4 +27,4 @@ This is a file-sharing platform built using Go, PostgreSQL, and local file stora
 </br>**File Operations** -
         </br>POST /upload: Upload a file (requires JWT).
         </br>GET /files: Retrieve all uploaded file metadata (requires JWT).
-        </br>GET /share/: Generate a public URL for file sharing (requires JWT).
+        </br>GET /files/share/: Generate a public URL for file sharing (requires JWT).
